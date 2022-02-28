@@ -1,0 +1,22 @@
+---
+permalink: legal-notices.html 
+sidebar: sidebar 
+keywords: copyrights, notice, trademarks, patents, privacy, open source 
+summary: 법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다. 
+---
+= 법적 고지
+:icons: font
+:imagesdir: ./media/
+
+
+link:https://raw.githubusercontent.com/NetAppDocs/common/main/_include/common-legal-notices.adoc[""]
+
+link:https://raw.githubusercontent.com/NetAppDocs/common/main/_include/open-source-notice-intro.adoc[""]
+
+link:NOTICE_AstraCloudControl_21.08.pdf["Astra Control Center 21.08 릴리스에 대한 고지 사항"^]
+
+
+
+== Astra Control API 라이센스
+
+https://docs.netapp.com/us-en/astra-automation/media/astra-api-license.pdf[]
