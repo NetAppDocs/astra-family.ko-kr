@@ -3,7 +3,7 @@ permalink: intro-family.html
 keywords: introduction, how astra works, how Astra works, what Astra is, astra control, kubernetes, astra control service, astra control center 
 summary: Astra는 상태 저장 애플리케이션의 운영을 단순화하는 Kubernetes 애플리케이션 데이터 라이프사이클 관리 서비스입니다. Kubernetes 워크로드를 손쉽게 보호, 백업, 마이그레이션하고 정상 작동하는 애플리케이션 클론을 즉시 생성할 수 있습니다. 
 ---
-= Astra 가족을 소개합니다
+= Astra 제품군에 대해 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -34,6 +34,12 @@ Astra 오퍼링은 다음과 같습니다.
 
 | 스토리지 | Astra 데이터 저장소 
 |===
+다음 이미지는 Astra 포트폴리오를 보여줍니다.image:astra-product-family.png["Astra 제품군"]
+
+
+
+== Astra 제품군 에코시스템
+
 다음 이미지는 Astra 제품군 에코시스템입니다.image:astra-ads-architecture-diagram-v3.png["Astra 아키텍처 다이어그램 및 구성 요소"]
 
 

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="42b90d40b51b0ccfc8a50cfa2f6c88bc" category="summary">Astra는 상태 저장 애플리케이션의 운영을 단순화하는 Kubernetes 애플리케이션 데이터 라이프사이클 관리 서비스입니다. Kubernetes 워크로드를 손쉽게 보호, 백업, 마이그레이션하고 정상 작동하는 애플리케이션 클론을 즉시 생성할 수 있습니다.</block>
-  <block id="1132699b3be3edf1b70f14c2203f23a1" category="doc">Astra 가족을 소개합니다</block>
   <block id="4a37c56b2766c00f553f023f2e4987e3" category="paragraph">NetApp Astra 제품군은 클라우드 네이티브 애플리케이션을 위한 애플리케이션 데이터 관리 및 스토리지를 제공합니다. </block>
   <block id="b71fa69e65a9178741af35068df8a392" category="paragraph">Astra 오퍼링은 다음과 같습니다.</block>
   <block id="9cdf0ccc35fe6d9fdc72efbcca1bacad" category="list-text">* Astra Control *: 퍼블릭 클라우드와 온프레미스 모두에서 Kubernetes 워크로드를 관리, 보호 및 이동하는 애플리케이션 인식 데이터 관리 툴을 사용합니다</block>
@@ -107,4 +106,8 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
+  <block id="f4e3fd93268ea6ed82aa5edf5e2e0cb1" category="doc">Astra 제품군에 대해 알아보십시오</block>
+  <block id="bb453665f57f6823950856f7a9bad0c3" category="inline-image-macro">Astra 제품군</block>
+  <block id="0ee3fa33cec12a8c87c052e3967c638a" category="paragraph">다음 이미지는 Astra 포트폴리오를 보여줍니다.<block ref="17d3506812ac5cd550afaae120fc3072" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16e3341389486c882cdc91177ff32570" category="section-title">Astra 제품군 에코시스템</block>
 </blocks>
