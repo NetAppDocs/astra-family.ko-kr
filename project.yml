@@ -12,6 +12,7 @@ sidebar:
   - title: Astra 제품군 문서
     url: "/index.html"
 product-family:
+  search: clouddocs-astra-control-service_main-prod,clouddocs-astra-control-center_main-prod,clouddocs-astra-data-store_main-prod,clouddocs-astra-automation_main-prod,clouddocs-trident_main-prod
   sidebarlinks:
   - title: 모든 제품
     tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api,tag_get_started
