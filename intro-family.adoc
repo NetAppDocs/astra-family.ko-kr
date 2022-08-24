@@ -20,7 +20,6 @@ Astra 오퍼링은 다음과 같습니다.
 ** * Astra Control Center *: 사내 Kubernetes 워크로드의 데이터 관리에 자가 관리 소프트웨어를 사용합니다.
 
 
-* * Astra Data Store *: 기업 데이터 관리를 위한 컨테이너 및 VM 워크로드를 위한 Kubernetes 네이티브 공유 파일 서비스를 사용합니다.
 * * Astra Trident *: NetApp 스토리지 공급자와 함께 CSI(Container Storage Interface)를 준수하는 스토리지 프로비저닝 및 관리 기능을 Kubernetes 워크로드에 사용합니다.
 
 
@@ -30,18 +29,7 @@ Astra 오퍼링은 다음과 같습니다.
 
 
 | 관리 | Astra Control Service Astra Control Center Astra Trident 
-
-
-| 스토리지 | Astra 데이터 저장소 
 |===
-다음 이미지는 Astra 포트폴리오를 보여줍니다.image:astra-product-family.png["Astra 제품군"]
-
-
-
-== Astra 제품군 에코시스템
-
-다음 이미지는 Astra 제품군 에코시스템입니다.image:astra-ads-architecture-diagram-v3.png["Astra 아키텍처 다이어그램 및 구성 요소"]
-
 
 
 == 아스트라 컨트롤
@@ -107,26 +95,9 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center 문서
 
 
 | 스토리지 백엔드 지원이란 무엇입니까? | NetApp 클라우드 서비스 오퍼링  a| 
-* Astra Data Store 스토리지 백엔드
-* NetApp ONTAP AFF 및 FAS 시스템
-
+NetApp ONTAP AFF 및 FAS 시스템
 
 |===
-
-
-== Astra 데이터 저장소
-
-Astra Data Store는 분산 병렬 파일 시스템으로, Kubernetes 클러스터에 네이티브 파일 및 블록 데이터 서비스를 엔터프라이즈 데이터 관리 기능과 함께 제공합니다.
-
-Astra Data Store에는 다음과 같은 주요 기능이 포함되어 있습니다.
-
-* 패키지로 제공되며 소프트웨어로 제공됩니다
-* 타사 상용 하드웨어에서 실행됩니다
-* 기존 및 클라우드 네이티브 애플리케이션을 위한 공통 데이터 플레인 제공
-
-
-https://docs.netapp.com/us-en/astra-data-store/["Astra Data Store 문서"^]
-
 
 
 == 아스트라 트리덴트
@@ -141,7 +112,6 @@ https://docs.netapp.com/us-en/trident/index.html["Astra Trident 문서"^]
 
 * https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 문서"^]
 * https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center 문서"^]
-* https://docs.netapp.com/us-en/astra-data-store/["Astra Data Store 문서"^]
 * https://docs.netapp.com/us-en/trident/index.html["Astra Trident 문서"^]
 * https://docs.netapp.com/us-en/astra-automation/index.html["Astra Control API를 참조하십시오"^]
 * https://docs.netapp.com/us-en/cloudinsights/["Cloud Insights 설명서"^]

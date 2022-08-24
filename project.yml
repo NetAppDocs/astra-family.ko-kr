@@ -21,8 +21,6 @@ product-family:
     tags: tag_application_data_management
   - title: 스토리지 관리
     tags: tag_storage_management
-  - title: 데이터 스토리지
-    tags: tag_data_storage
   - title: 자동화 및 API
     tags: tag_api
   tiles:
@@ -42,11 +40,6 @@ product-family:
     url: https://docs.netapp.com/us-en/astra-control-center/index.html
     summary: 온프레미스 Kubernetes 워크로드의 앱 인식 데이터 관리를 위해 자가 관리 소프트웨어를 사용하십시오.
     tags: all, tag_application_data_management
-  - title: Astra 데이터 저장소
-    icon: "./media/Astra_Data_Store_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-data-store/index.html
-    summary: 엔터프라이즈 데이터 관리를 제공하는 컨테이너 및 VM 워크로드 모두에 Kubernetes 네이티브 공유 파일 서비스를 사용합니다.
-    tags: all, tag_data_storage
   - title: 아스트라 트리덴트
     icon: "./media/Astra_Trident_logo_line2.png"
     url: https://docs.netapp.com/us-en/trident/index.html
