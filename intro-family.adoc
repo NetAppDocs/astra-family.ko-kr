@@ -41,6 +41,7 @@ Astra Control은 Kubernetes 애플리케이션 데이터 라이프사이클 관�
 * 정책 기반 스냅샷 및 백업 작업 자동화
 * Kubernetes 클러스터 간에 애플리케이션 및 데이터를 마이그레이션합니다
 * 스테이징 환경에서 운영 환경으로 애플리케이션 클론 생성
+* NetApp SnapMirror 기술을 사용하여 애플리케이션을 원격 시스템에 복제합니다
 * 애플리케이션 상태 및 보호 상태를 시각화합니다
 * 사용자 인터페이스 또는 API를 사용하여 백업 및 마이그레이션 워크플로우 구현
 
@@ -55,7 +56,7 @@ Astra Control은 두 가지 배포 모델로 제공됩니다.
 +
 https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 문서"^]
 
-* * Astra Control Center *: 사내 환경에서 실행되는 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공하는 자체 관리 소프트웨어입니다.
+* * Astra Control Center *: 사내 환경에서 실행되는 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공하는 자체 관리 소프트웨어입니다. Astra Control Center는 Amazon Web Services, Microsoft Azure 및 Google Cloud Platform(GCP)에 NetApp Cloud Volumes ONTAP 스토리지 백엔드를 설치할 수도 있습니다.
 +
 https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center 문서"^]
 
@@ -69,14 +70,14 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center 문서
 | 어떻게 제공됩니까?  a| 
 NetApp에서 제공하는 완전 관리형 클라우드 서비스
  a| 
-소프트웨어를 다운로드, 설치 및 관리할 수 있습니다
+다운로드, 설치 및 관리하는 소프트웨어입니다
 
 
 
 | 어디에 호스팅됩니까?  a| 
 NetApp에서 제공하는 다양한 퍼블릭 클라우드 지원
  a| 
-에 제공한 Kubernetes 클러스터
+Kubernetes 클러스터를 사용하십시오
 
 
 
