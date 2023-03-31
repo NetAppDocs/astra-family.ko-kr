@@ -2,16 +2,15 @@
 settings:
   name: Astra Family
   search: astra-control-service,astra-control-center,astra-automation,trident
-  internal:
-    pdf_enabled: false
   prod:
-    pdf_enabled: false
     harmony_enabled: false
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
   - title: Astra 제품군 문서
     url: "/index.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
 product-family:
   sidebarlinks:
   - title: 모든 제품

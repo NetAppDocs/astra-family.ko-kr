@@ -43,7 +43,7 @@ Astra Control은 Kubernetes 애플리케이션 데이터 라이프사이클 관�
 * 스테이징 환경에서 운영 환경으로 애플리케이션 클론 생성
 * NetApp SnapMirror 기술을 사용하여 애플리케이션을 원격 시스템에 복제합니다
 * 애플리케이션 상태 및 보호 상태를 시각화합니다
-* 사용자 인터페이스 또는 API를 사용하여 백업 및 마이그레이션 워크플로우 구현
+* 웹 UI 또는 API를 사용하여 백업 및 마이그레이션 워크플로우를 구현합니다
 
 
 
@@ -52,7 +52,7 @@ Astra Control은 Kubernetes 애플리케이션 데이터 라이프사이클 관�
 
 Astra Control은 두 가지 배포 모델로 제공됩니다.
 
-* * Astra Control Service *: AWS(Amazon Web Services), AKS(Azure Kubernetes Service), GKE(Google Kubernetes Engine)에서 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공하는 NetApp 관리 서비스입니다.
+* * Astra Control Service *: NetApp 관리 서비스로, 여러 클라우드 공급자 환경 및 셀프 관리 Kubernetes 클러스터에서 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공합니다.
 +
 https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 문서"^]
 
@@ -93,24 +93,35 @@ NetApp에서 관리합니다
 +
 ** Amazon EBS
 ** NetApp ONTAP용 Amazon FSx
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 * Google 클라우드:
 +
 ** Google 영구 디스크
 ** NetApp Cloud Volumes Service를 참조하십시오
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 * Microsoft Azure:
 +
 ** Azure 관리 디스크
 ** Azure NetApp Files
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+
+
+* 자가 관리 클러스터
++
+** Amazon EBS
+** Google 영구 디스크
+** Azure 관리 디스크
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 
  a| 
 * NetApp ONTAP AFF 및 FAS 시스템
-* Cloud Volumes ONTAP 스토리지 백엔드
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 |===
