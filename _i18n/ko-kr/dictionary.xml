@@ -14,7 +14,6 @@
   <block id="0a5245490d6d6f511bbdb3db35acfe54" category="list-text">애플리케이션 인식 필요 시 스냅샷과 백업을 생성합니다</block>
   <block id="f107a6e34d3d0df36d460bc5b3a5fe8b" category="list-text">정책 기반 스냅샷 및 백업 작업 자동화</block>
   <block id="ae3099cc177fc161f80c6965fe89a71a" category="list-text">Kubernetes 클러스터 간에 애플리케이션 및 데이터를 마이그레이션합니다</block>
-  <block id="f22cb7c9b8713326a930c00edca70cee" category="list-text">스테이징 환경에서 운영 환경으로 애플리케이션 클론 생성</block>
   <block id="1c26e7db082840fcbfcd87527c92e1aa" category="list-text">애플리케이션 상태 및 보호 상태를 시각화합니다</block>
   <block id="6762973af9b127d271f0d2b2aea0bc96" category="section-title">구축 모델</block>
   <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control은 두 가지 배포 모델로 제공됩니다.</block>
@@ -88,13 +87,14 @@
   <block id="4bce0cadbd95655804d72e0df4ac6d7b" category="list-text">Microsoft Azure:</block>
   <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Azure 관리 디스크</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
-  <block id="5ec023826f488423d711ac0df1d9f4c5" category="list-text">NetApp SnapMirror 기술을 사용하여 애플리케이션을 원격 시스템에 복제합니다</block>
-  <block id="a3b55d525a2386049955089c958fb85f" category="list-text">* Astra Control Center *: 사내 환경에서 실행되는 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공하는 자체 관리 소프트웨어입니다. Astra Control Center는 Amazon Web Services, Microsoft Azure 및 Google Cloud Platform(GCP)에 NetApp Cloud Volumes ONTAP 스토리지 백엔드를 설치할 수도 있습니다.</block>
-  <block id="3f30cc087061fe529429ba0e8d0ff810" category="paragraph">다운로드, 설치 및 관리하는 소프트웨어입니다</block>
-  <block id="dccc75a2a0dee41efca95ab5f6a92a91" category="paragraph">Kubernetes 클러스터를 사용하십시오</block>
   <block id="6c4ff7542dcef16bc12bbbab0c160e9a" category="list-text">웹 UI 또는 API를 사용하여 백업 및 마이그레이션 워크플로우를 구현합니다</block>
   <block id="b7372905cd310308af0541e07ef5175f" category="list-text">* Astra Control Service *: NetApp 관리 서비스로, 여러 클라우드 공급자 환경 및 셀프 관리 Kubernetes 클러스터에서 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공합니다.</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
   <block id="3be7ceee76706d9dfc15d8f9c233dfb8" category="list-text"><block ref="3be7ceee76706d9dfc15d8f9c233dfb8" category="inline-link-macro-rx"></block></block>
-  <block id="d9e6278e0d2ca01f55d0a29da9caa34f" category="list-text">자가 관리 클러스터</block>
+  <block id="f7173fff9a92f2bab2648f86282ab07c" category="list-text">NetApp SnapMirror 기술(Astra Control Center)을 사용하여 원격 시스템에 애플리케이션 복제</block>
+  <block id="631928ccc601c8e49976a8d73af28304" category="list-text">스테이징 환경에서 운영 환경으로 애플리케이션 클론 생성</block>
+  <block id="db7cdbe16748f17a4795bd3e96b798a0" category="list-text">* Astra Control Center *: 사내 환경에서 실행되는 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공하는 자체 관리 소프트웨어입니다. 또한 NetApp Cloud Volumes ONTAP 스토리지 백엔드를 통해 여러 클라우드 공급자 환경에 Astra Control Center를 설치할 수 있습니다.</block>
+  <block id="aff53210beade5ba79414ae13eb6b73d" category="paragraph">소프트웨어를 다운로드, 설치 및 관리할 수 있습니다</block>
+  <block id="384c577b472799aa8cd781ce64f2bb34" category="paragraph">고유한 Kubernetes 클러스터</block>
+  <block id="55b6146ebe43b01a290a7aad48a66943" category="list-text">자가 관리 클러스터:</block>
 </blocks>
