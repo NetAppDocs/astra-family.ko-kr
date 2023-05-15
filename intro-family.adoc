@@ -54,11 +54,11 @@ Astra Control은 두 가지 배포 모델로 제공됩니다.
 
 * * Astra Control Service *: NetApp 관리 서비스로, 여러 클라우드 공급자 환경 및 셀프 관리 Kubernetes 클러스터에서 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공합니다.
 +
-https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 문서"^]
+https://["Astra Control Service 문서"^]
 
 * * Astra Control Center *: 사내 환경에서 실행되는 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공하는 자체 관리 소프트웨어입니다. 또한 NetApp Cloud Volumes ONTAP 스토리지 백엔드를 통해 여러 클라우드 공급자 환경에 Astra Control Center를 설치할 수 있습니다.
 +
-https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center 문서"^]
+https://["Astra Control Center 문서"^]
 
 
 
@@ -93,7 +93,7 @@ NetApp에서 관리합니다
 +
 ** Amazon EBS
 ** NetApp ONTAP용 Amazon FSx
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["Cloud Volumes ONTAP"^]
 
 
 * Google 클라우드:
@@ -107,7 +107,7 @@ NetApp에서 관리합니다
 +
 ** Azure 관리 디스크
 ** Azure NetApp Files
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Cloud Volumes ONTAP"^]
 
 
 * 자가 관리 클러스터:
@@ -115,13 +115,13 @@ NetApp에서 관리합니다
 ** Amazon EBS
 ** Google 영구 디스크
 ** Azure 관리 디스크
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
 
 
 
  a| 
 * NetApp ONTAP AFF 및 FAS 시스템
-* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
 
 
 |===
@@ -131,16 +131,16 @@ NetApp에서 관리합니다
 
 Astra Trident는 Kubernetes 컨테이너 스토리지 인터페이스(CSI) 드라이버인 NetApp의 오픈 소스 구현입니다. Astra Trident는 Kubernetes 애플리케이션연결을 위한 오케스트레이션 및 데이터 연결을 제공합니다.
 
-https://docs.netapp.com/us-en/trident/index.html["Astra Trident 문서"^]
+https://["Astra Trident 문서"^]
 
 
 
 == 를 참조하십시오
 
-* https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 문서"^]
-* https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center 문서"^]
-* https://docs.netapp.com/us-en/trident/index.html["Astra Trident 문서"^]
-* https://docs.netapp.com/us-en/astra-automation/index.html["Astra Control API를 참조하십시오"^]
-* https://docs.netapp.com/us-en/cloudinsights/["Cloud Insights 설명서"^]
-* https://docs.netapp.com/us-en/ontap/index.html["ONTAP 설명서"^]
+* https://["Astra Control Service 문서"^]
+* https://["Astra Control Center 문서"^]
+* https://["Astra Trident 문서"^]
+* https://["Astra Control API를 참조하십시오"^]
+* https://["Cloud Insights 설명서"^]
+* https://["ONTAP 설명서"^]
 
