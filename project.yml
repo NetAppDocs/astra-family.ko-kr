@@ -23,7 +23,7 @@ product-family:
   - title: 자동화 및 API
     tags: tag_api
   tiles:
-  - title: Astra 가족에 대해 알아보십시오
+  - title: Astra Control에 대해 알아보십시오
     icon: "./media/Astra_Family_logo_line.png"
     url: intro-family.html
     summary: Astra 제품군에 대해 알아보십시오.
