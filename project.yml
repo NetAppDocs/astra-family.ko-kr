@@ -2,51 +2,13 @@
 settings:
   name: Astra Family
   search: astra-control-service,astra-control-center,astra-automation,trident
+  internal:
+    pdf_enabled: false
   prod:
+    pdf_enabled: false
     harmony_enabled: false
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: Astra 제품군 문서
     url: "/index.html"
-  - title: 법적 고지
-    url: "/legal-notices.html"
-product-family:
-  sidebarlinks:
-  - title: 모든 제품
-    tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api,tag_get_started
-    class: active
-  - title: 애플리케이션 데이터 관리
-    tags: tag_application_data_management
-  - title: 스토리지 관리
-    tags: tag_storage_management
-  - title: 자동화 및 API
-    tags: tag_api
-  tiles:
-  - title: Astra Control에 대해 알아보십시오
-    icon: "./media/Astra_Family_logo_line.png"
-    url: intro-family.html
-    summary: Astra 제품군에 대해 알아보십시오.
-    tags: all, tag_get_started
-  - title: Astra 제어 서비스
-    icon: "./media/Astra_Control_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra/index.html
-    summary: NetApp에서 관리하는 서비스를 퍼블릭 클라우드의 Kubernetes 워크로드에 대한 애플리케이션 인식 데이터 관리에 사용할
-      수 있습니다.
-    tags: all, tag_application_data_management
-  - title: Astra 제어 센터
-    icon: "./media/Astra_Control_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-control-center/index.html
-    summary: 온프레미스 Kubernetes 워크로드의 앱 인식 데이터 관리를 위해 자가 관리 소프트웨어를 사용하십시오.
-    tags: all, tag_application_data_management
-  - title: 아스트라 트리덴트
-    icon: "./media/Astra_Trident_logo_line2.png"
-    url: https://docs.netapp.com/us-en/trident/index.html
-    summary: Kubernetes 워크로드에 대한 CSI 규정 준수 스토리지 프로비저닝 및 관리를 NetApp 스토리지 공급자와 함께 사용할
-      수 있습니다.
-    tags: all, tag_storage_management
-  - title: Astra 자동화 및 API
-    icon: "./media/Astra_Family_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-automation/index.html
-    summary: API 및 SDK를 사용하여 운영 시 Astra 워크플로우를 자동화합니다.
-    tags: all, tag_api
