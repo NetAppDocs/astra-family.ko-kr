@@ -91,7 +91,7 @@ Astra Control은 다음과 같은 4가지 보완 구성 요소를 기반으로 �
 
 Astra Control은 2가지 구축 모델로 제공됩니다.
 
-image:astra-architecture-diagram-v6.png["Astra 구축 모델"]
+image:astra-architecture-diagram-v7.png["Astra 구축 모델"]
 
 * * Astra Control Service *: NetApp 관리 서비스로, 여러 클라우드 공급자 환경 및 셀프 관리 Kubernetes 클러스터에서 Kubernetes 클러스터의 애플리케이션 인식 데이터 관리를 제공합니다.
 +
@@ -150,9 +150,9 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center 문서
 ** Red Hat OpenShift Container Platform
 
 
-* * 온-프레미스 클러스터 *
+* * 온프레미스 클러스터 *
 +
-** Red Hat OpenShift Container Platform 온-프레미스
+** Red Hat OpenShift Container Platform 온프레미스
 
 
 
@@ -202,7 +202,7 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra Control Center 문서
 ** https://longhorn.io/["롱혼"^]
 
 
-* * 온-프레미스 클러스터 *
+* * 온프레미스 클러스터 *
 +
 ** NetApp MetroCluster
 ** NetApp ONTAP AFF 및 FAS 시스템
